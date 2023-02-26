@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JLPlayer - Reprodutor de vídeos</title>
+
+    <!-- Link style jlplayer.css -->
+    <link rel="stylesheet" href="jlplayer.css">
+
+    <style>
+        *, *::before, *::after{margin: 0; padding: 0;}
+        .video-container{width: 500px;}
+    </style>
+
+</head>
+
+<body>
+
+    <form class="video-container" action="" method="GET">
+
+        <!-- Chamar elemento vídeo com class jlplayer-video -->
+        <video preload="none" class="jlplayer-video">
+            <source src="https://live-01.edge-vivo-plu-mg.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12aXZvLXBsdS1tZy52aWRlby5nbG9iby5jb20iLCJleHAiOjE2Nzc0NDQ5NjcsImlhdCI6MTY3NzM1ODU2NywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiIzMmFiMDAwNy1iYzE1LTRlZDEtODRjNy1mNTFiYmE5ODdlNTEiLCJwYXRoIjoiL2QvYy8yeC9zL2hscy1nbG9iby1tdGMvcGxheWxpc3QubTN1OCJ9.lLGV79wbdmX1Ll18DLkh4sNqRFwQVsfEisnyfrz8tkf_zsROcyvGFMvV0vEvmbAevRPISAdQSjt8a5sE7IcivhLOXV2WMxJV1u1U5rlqsq0FEBdQ1xQrIVoGpa4OUL-Tfqyzx-xmyWXG7U_vF0iXXIOj5_i-qO0G_2FRdRW9yErJCyxiLFCxVgeIbOGMvFRTxPqlCg2weHcgPyi8Tbmhv98x6oBW-9dEV9dhTkOgDIN0Vw1Mp4BXvtYqRdUBg70f_xJ4DVkm7a1Gvj_Tq0de00jPbX0K4kdkiwoLxLcQvxJjqSwMVqB9IZJHpriyhR7IUuA0BNSHCrWZ0AZmQ1ap7w/d/c/2x/s/hls-globo-mtc/hls-globo-mtc_2359/playlist.m3u8">
+            <!-- <track kind="captions" src="legenda.vtt" default> -->
+        </video>
+
+    </form>
+
+    <!-- Inclusão jlplayer -->
+    <script src="jlplayer.js" async></script>
+
+</body>
+
+</html>
